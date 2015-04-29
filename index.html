@@ -22,9 +22,9 @@
           <h2 id="project_tagline">Simplified interface for a steam chat bot</h2>
 
             <section id="downloads">
-              <a class="npm_download_link" href="https://www.npmjs.com/package/steam-chat-bot">Download this project through NPM</a>
-              <a class="zip_download_link" href="https://github.com/Efreak/node-steam-chat-bot/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/Efreak/node-steam-chat-bot/tarball/master">Download this project as a tar.gz file</a>
+              <a class="npm_download_link" href="https://www.npmjs.com/package/steam-chat-bot" title="Visit this project at NPM">Visit this project at NPM</a>
+              <a class="zip_download_link" href="https://github.com/Efreak/node-steam-chat-bot/zipball/master" title="Download this project as a .zip file">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Efreak/node-steam-chat-bot/tarball/master" title="Download this project as a tar.gz file">Download this project as a tar.gz file</a>
             </section>
         </header>
     </div>
@@ -32,22 +32,8 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <p><a href="http://badge.fury.io/gh/efreak%2Fnode-steam-chat-bot"><img src="https://badge.fury.io/gh/efreak%2Fnode-steam-chat-bot.svg" alt="GitHub version"></a>
-<a href=""><img src="https://img.shields.io/github/tag/efreak/node-steam-chat-bot.svg" alt="GitHub tag"></a>
-<a href=""><img src="https://img.shields.io/node/v/steam-chat-bot.svg" alt="node"></a>
-<a href=""><img src="https://reposs.herokuapp.com/?path=Efreak/node-steam-chat-bot" alt="Repo Size"></a>
-<a href="/LICENCE"><img src="https://img.shields.io/badge/license-MIT-44CC11.svg" alt="Packagist"></a></p>
 
-<p><a href="https://david-dm.org/efreak/node-steam-chat-bot"><img src="https://david-dm.org/efreak/node-steam-chat-bot.svg" alt="Dependencies"></a>
-<a href="https://www.versioneye.com/user/projects/547014ce9dcf6d5567000b49"><img src="https://www.versioneye.com/user/projects/547014ce9dcf6d5567000b49/badge.svg?style=flat" alt="Dependency Status"></a>
-<a href="https://www.codacy.com/public/efreak2004/node-steam-chat-bot"><img src="https://www.codacy.com/project/badge/79e3862b9b2b4e0fbbcf9e980fcb6263" alt="Codacy Badge"></a></p>
-
-<p><a href="http://forthebadge.com"><img src="http://forthebadge.com/images/badges/built-with-swag.svg" alt="forthebadge"></a></p>
-
-<h1>
-<a id="node-steam-chat-bot" class="anchor" href="#node-steam-chat-bot" aria-hidden="true"><span class="octicon octicon-link"></span></a>node-steam-chat-bot</h1>
-
-<p>Simplified interface for a steam chat bot. This is a wrapper around <a href="https://github.com/seishun/node-steam">Steam for Node.js</a> which is aimed at making an easily configurable chatbot that sits in Steam groups chat rooms and responds to various events. Responses are handled as a set of triggers of various types which can be configured to respond to a number of different chat messages. Steam requires that a user has at least one game before it can join chat rooms (unless it's a mod), so you'll need to buy a game for the bot account or make it a mod before it will be able to join.</p>
+<p>This is a wrapper around <a href="https://github.com/seishun/node-steam">Steam for Node.js</a> which is aimed at making an easily configurable chatbot that sits in Steam group chat rooms and responds to various events. Responses are handled as a set of triggers of various types which can be configured to respond to a number of different chat messages. Steam requires that a user has at least one game before it can join chat rooms (unless it's a mod), so you'll need to buy a game for the bot account or make it a mod before it will be able to join.</p>
 
 <p>If you have Steam Guard enabled you'll get a failed logon attempt the first time you try to log on and you'll be sent a Steam Guard code. Pass this code in with the constructor (e.g. <code>new ChatBot('username', 'password', { guardCode: 'XXXX' };)</code> and you should be able to log in. A sentry file will be stored, which should allow you to log in with a different computer using the same guard code. If you start getting logon failures again you should delete the sentry file, remove the guard code, and try to log in with neither so you get a fresh code emailed to you.</p>
 
@@ -180,7 +166,7 @@
 <p>After you have example-heroku set up to your liking, follow the instructions <a href="https://devcenter.heroku.com/articles/git">here</a> to set up heroku and upload your bot. Once it's uploaded, start it with <code>heroku ps:scale web=1</code></p>
 
 <h3>
-<a id="testing-policy--" class="anchor" href="#testing-policy--" aria-hidden="true"><span class="octicon octicon-link"></span></a>Testing Policy : <a href="http://forthebadge.com"><img src="http://forthebadge.com/images/badges/fuck-it-ship-it.svg" alt="forthebadge"></a>
+<a id="testing-policy--" class="anchor" href="#testing-policy--" aria-hidden="true"><span class="octicon octicon-link"></span></a>Testing Policy : &nbsp;&nbsp;<a href="http://forthebadge.com"><img src="http://forthebadge.com/images/badges/fuck-it-ship-it.svg" alt="forthebadge" style="vertical-align:middle"></a>
 </h3>
 
 <p>In other words, I don't do a whole lot of testing. I do my best not to break things, but <em>stuff happens</em>. If you <a href="https://github.com/Efreak/node-steam-chat-bot/issues/new">found</a> or <a href="https://github.com/Efreak/node-steam-chat-bot/compare/">fixed</a> a bug, you know what to do...</p>
