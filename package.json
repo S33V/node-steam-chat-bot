@@ -109,6 +109,7 @@
     "qs": "^4.0.0",
     "steam": "^0.6.8",
     "steam-trade": "git://github.com/seishun/node-steam-trade.git",
+    "steam-weblogon": "0.0.3",
     "underscore": "^1.8.3",
     "winston": "^1.0.0"
   },
